@@ -2,6 +2,10 @@
 
 [![CI](https://github.com/VOfficial404/bili-ip-anchor-desktop/actions/workflows/ci.yml/badge.svg)](https://github.com/VOfficial404/bili-ip-anchor-desktop/actions/workflows/ci.yml)
 
+> [!IMPORTANT]
+> **这个仓库已经不再更新。** 桌面客户端从 v0.6.0 起合并进了 [bili-ip-anchor](https://github.com/VOfficial404/bili-ip-anchor) 仓库的 `desktop/` 目录（保留了提交历史），并加入了本机运行模式和手机 App。
+> 新版本请到 [bili-ip-anchor 的 Releases](https://github.com/VOfficial404/bili-ip-anchor/releases/latest) 下载，问题也请到那边提。
+
 [bili-ip-anchor](https://github.com/VOfficial404/bili-ip-anchor) 的桌面客户端，用 [MyGo](https://mygo.egoist.dev/) 的原生 UI 写成，支持 Windows、macOS 和 Linux。
 
 **定时任务仍然在你的云服务器上跑，这个程序只是遥控器。** 它通过服务器 WebUI 的接口查看状态、扫码添加账号、修改设置和看日志，功能和网页面板一样，只是换成了独立的窗口。B 站看到的始终是服务器的 IP，桌面客户端本身不会以你的账号访问 B 站（头像图片除外，见下文）。
